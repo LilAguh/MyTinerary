@@ -1,0 +1,56 @@
+.MyProfile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MyProfile-h2{
+    margin: 15px;
+}
+.MyProfile-form{
+  width: 40%;
+}
+
+.Myprofile-input{
+
+}
+
+.Myprofile-input{
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Myprofile-input::placeholder{
+    color: #a1a1aa;
+}
+
+.Myprofile-input:focus, Allcity-input:hover {
+    outline: none;
+    border-color: rgba(104, 36, 63, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.Myprofile-btn{
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+@media (max-width: 869px) {
+    .MyProfile-form{
+        width: 80%;
+      }
+}

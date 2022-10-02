@@ -1,0 +1,52 @@
+.Activity{
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
+.Activity-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 120px;
+}
+
+.Activity-ContainerImg{
+    width: 100px;
+    height: 100px;
+}
+.Activity-Img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.Activity-Title{
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+    .Activity-ContainerImg{
+        width: 60px;
+        height: 60px;
+    }
+    .Activity-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 70px;
+    }
+    .Activity-Title{
+        width: 70px;
+        font-size: 16px;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+}
