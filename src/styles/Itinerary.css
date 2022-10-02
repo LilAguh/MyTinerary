@@ -1,0 +1,80 @@
+.Itinerary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Itinerary-Container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.Itinerary-ImgContainer{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Itinerary-Img{
+    width: 100%;
+}
+.Itinerary-InformationContainer{
+    width: 90%;
+}
+
+.Itinerary-Title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.Itinerary-ActivityTitle{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Itinerary-User{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.Itinerary-ImgUser{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.Itinerary-UserName{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .Itinerary-Container{
+        width: 80%;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 20px 0;
+        gap: 30px;
+    }
+    .Itinerary-ImgContainer{
+    width: 280px;
+    height: 260px;
+    }
+    .Itinerary-Img{
+        object-fit: cover;
+        height: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .Itinerary-ImgContainer{
+        width: 40%;
+        height: 260px;
+        }
+}
+@media (min-width: 1440px) {
+    .Itinerary-Container{
+        width: 76%;
+    }
+}
